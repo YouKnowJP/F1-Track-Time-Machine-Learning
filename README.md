@@ -123,3 +123,44 @@ Footer
 © 2024 GitHub, Inc.
 Footer navigation
 Terms
+
+# F1 Simulation
+
+A reinforcement learning simulation environment for an F1 car using Gymnasium, Pygame, and Stable Baselines3.
+
+## Project Structure
+
+- `main.py`: Entry point for training and evaluating the agent.
+- `env/`: Contains environment-related classes (`F1TrackEnv`, `Car`, `Track`, `Logger`).
+- `utils/`: Utility functions and helpers.
+- `agents/`: Agent-related functionalities (`run_agent`).
+- `rendering/`: Rendering-related modules (optional).
+
+## Setup
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/yourusername/f1_simulation.git
+    cd f1_simulation
+    ```
+
+2. **Create a virtual environment:**
+
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3. **Install dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+To start training the PPO agent:
+
+```bash
+python main.py
