@@ -1,0 +1,24 @@
+f1_simulation/
+│
+├── main.py
+├── requirements.txt
+├── README.md
+│
+├── env/
+│   ├── __init__.py
+│   ├── f1_track_env.py
+│   ├── car.py
+│   ├── track.py
+│   └── logger.py
+│
+├── utils/
+│   ├── __init__.py
+│   └── math_utils.py
+│
+├── agents/
+│   ├── __init__.py
+│   └── run_agent.py
+│
+└── rendering/
+    ├── __init__.py
+    └── renderer.py
